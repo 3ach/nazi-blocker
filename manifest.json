@@ -1,0 +1,25 @@
+{
+    "name": "Nazi Blocker",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Sick of seeing actual Nazis on your Twitter timeline? Sick of Twitter's lack of motivation to get rid of them? Use Nazi Blocker!",
+    "page_action": {
+        "default_icon": "assets/icon.png"
+    },
+    "icons": {
+        "19": "assets/icon.png"
+    },
+    "permissions": [
+        "webNavigation"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["*://*.twitter.com/"],
+            "js": ["lib/findUsernames.js", "lib/hideTweets.js"]
+        }
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+}

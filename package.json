@@ -1,0 +1,19 @@
+{
+  "name": "nazi-blocker",
+  "version": "1.0.0",
+  "description": "Sick of seeing actual Nazis on your Twitter timeline? Sick of Twitter's lack of motivation to get rid of them? Use Nazi Blocker!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachzundel/nazi-blocker.git"
+  },
+  "author": "Zach Zundel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zachzundel/nazi-blocker/issues"
+  },
+  "homepage": "https://github.com/zachzundel/nazi-blocker#readme"
+}
